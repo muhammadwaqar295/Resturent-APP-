@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Infopage">
+
+<TextView
+    android:id="@+id/About_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ABOUT US"
+    android:textSize="30dp"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    />
+    <TextView
+        android:id="@+id/paragraph_about"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        android:text=" KFC entered Pakistan in 1997 and since then, it’s been a journey full of excitement and Finger Lickin’ goodness! The first KFC restaurant opened in Pakistan opened in Gulshan Iqbal, Karachi and now our Finger Lickin’ Chicken is available in 32+ cities with over 110 restaurants! Being the most loved fast food chain in Pakistan, KFC leaves no stone unturned to provide its customers the most delicious chicken and an excellent dining experience."
+        android:layout_marginStart="20dp"
+        android:textSize="16dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintTop_toBottomOf="@id/About_title"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/history_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HISTORY"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/paragraph_about"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:id="@+id/paragraph_history"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        android:text="It all started with Colonel Harland Sanders, the man who convinced the world by saying “We do chicken right!” Sanders took a great deal of time perfecting his iconic secret recipe of 11 herbs and spices, a legacy he’s brought to the world through KFC’s 10,000 restaurants. Starting from outside of his gas station in Korbin, Kentucky to being a globally recognized face, we owe our success to the Colonel’s hard work and passion for sharing his love for chicken with the world!"
+        android:layout_marginStart="20dp"
+        android:textSize="16dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintTop_toBottomOf="@id/history_title"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

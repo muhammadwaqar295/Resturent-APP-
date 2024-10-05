@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "737251798879",
+    "project_id": "kfc-resturent",
+    "storage_bucket": "kfc-resturent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737251798879:android:129ba27884b79078bbd0ea",
+        "android_client_info": {
+          "package_name": "com.example.kfcresturent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737251798879-k95bjb5ctaaccvfokg4fc6g89ctoag9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY0tCf2mBlqynz-AHP1xyw0eoOznK9fRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737251798879-k95bjb5ctaaccvfokg4fc6g89ctoag9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
